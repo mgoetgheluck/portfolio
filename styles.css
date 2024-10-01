@@ -1,0 +1,65 @@
+.myPictureContainer {
+    text-align: right;  
+}
+
+.presentationContainer {
+    padding: 2em 3em 2em 3em;
+    border-bottom: 1px solid gray;
+    margin: 0!important;
+}
+
+.introTextContainer div {
+    padding: 1em 0 1em 0;
+}
+
+.stuffContainer{
+    background-color: #f4f4f4;
+    margin: 0!important;
+    padding: 2em;
+    border-bottom: 1px solid grey;
+}
+
+.stuffItemContainer {
+    border: 1px solid grey;
+    margin: 2em 0 2em 0;
+    padding: 1em;
+    background-color: white;     
+}
+
+.stuffListContainer {
+    display: flex;
+}
+
+.portfolioItemContainer {
+    border: 1px solid grey;
+    margin: 2em 0 2em 0;
+    padding: 1em;
+    background-color: white;
+    text-align: center;    
+}
+
+
+
+@media (max-width: 768px){
+    .myPictureContainer {
+        text-align: center!important;
+    }
+
+    .learnButtonContainer {
+        text-align: center!important;
+    }
+
+    .stuffListContainer {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+   .stuffItemContainer {
+    margin: 1em 1em 1em 1em;
+   }
+
+   .portfolioItemContainer {
+    margin: 1em 1em 1em 1em;
+   }
+}

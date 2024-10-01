@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- NAVBAR START -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Menu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item"></li>
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!-- NAVBAR END -->
+        <!-- PRESENTATION CONTAINER START -->
+        <section class="presentationContainer container-fluid">
+            <div class="row">
+                <div class="col-xs-4 col-md-4 myPictureContainer">
+                    <img class="rounded-circle" src="images/my_picture.jpg" width="150px"/>  
+                </div>
+                <div class="col-xs-8 col-md-8 introTextContainer">
+                    <div>
+                        <span>Hi. I'm <strong>Maxime Goetgheluck</strong>.</span>
+                    </div>
+                    <div><span>I am a Software Engineer specialized in Fullstack Java/Angular Development. This website is powered by my skills using Bootstrap for better responsiveness.</span></div>
+                    <div><span>I got 4 years experience developping Web applications for major companies such as Amadeus, American Airlines or Air France. I am adaptive, serious and very calm. I am communicative and I like to be involved in my projects. It allows me to meet delivery on time with high quality.</span></div>
+                    <div><span>You can contact me through phone with the +33.7.69.48.67 or by mail: mgoetghe@gmail.com</span></div>
+
+                </div>
+                
+            </div>
+        </section>
+        <!-- PRESENTATION CONTAINER END -->
+        <!-- STUFF I DO CONTAINER START -->
+        <div class="stuffContainer text-center" id="work">
+            <div class="stuffTitleContainer text-center">
+                <span><strong>Here's all the stuff I do.</strong></span>
+            </div>
+            <div class=" container-fluid stuffListContainer">
+                <div class="row no-gutters justify-content-center">
+                    <div class="stuffItemContainer rounded col-xs-12 col-sm-4">
+                        <div><img src="images/java.svg" width="100px" alt="Java icon"/></div>
+                        <div><span>Java 17 development</span></div>
+                        <div><span>3 years experience using Java to power up projects and applications</span></div>
+                    </div>
+                    <div class="stuffItemContainer rounded col-xs-12 col-sm-4">
+                        <div><img src="images/springboot.png" width="100px" alt="Java Springboot icon"/></div>
+                        <div><span>Java Spring Boot</span></div>
+                        <div><span>1 year experience using Springboot to manage Rest APIs and Microservices</span></div>
+                    </div>
+                    <div class="stuffItemContainer rounded col-xs-12 col-sm-4">
+                        <div><img src="images/javascript-js.svg" width="100px" alt="Javascript icon"/></div>
+                        <div><span>Javascript development</span></div>
+                        <div><span>4 years experience using Javascript to create dynamics and nice user experiences inside your websites</span></div>
+                    </div>
+                    <div class="stuffItemContainer rounded col-xs-12 col-sm-4">
+                        <div><img src="images/nodejs-logo.svg" width="100px" alt="NodeJS icon"/></div>
+                        <div><span>NodeJS development</span></div>
+                        <div><span>1 year experience using nodeJS to power backend development, REST Apis and Microservices</span></div>
+                    </div>
+                    <div class="stuffItemContainer rounded col-xs-12 col-sm-4">
+                        <div><img src="images/angular.svg" width="100px" alt="Angular icon"/></div>
+                        <div><span>Angular Development</span></div>
+                        <div><span>1 year experience in Front-End development using the Angular framework</span></div>
+                    </div>
+                    <div class="stuffItemContainer rounded col-xs-12 col-sm-4">
+                        <div><img src="images/docker.webp" width="100px" alt="Docker icon"/></div>
+                        <div><span>Docker Devops</span></div>
+                        <div><span>6 months experience using Docker to better manage microservices and continuous integration</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 stuffListDescriptionContainer" >
+                <span>And more to come ! I am a real software enthusiast who can adapt to your technologies !</span>
+            </div>
+        </div>
+        <!-- STUFF I DO CONTAINER END -->
+         <!-- PORTFOLIO CONTAINER START -->
+        <div class="portfolioContainer" id="portfolio">
+            <div class="portfolioTitleContainer text-center">
+                <span><strong>My Portfolio</strong></span>
+            </div>
+            <div class="container-fluid portfolioListContainer">
+                <div class="row no-gutters justify-content-center">
+                    <div class="portfolioItemContainer rounded col-xs-12 col-sm-8">
+                        <div><img src="images/american_airlines.webp" width="300px" alt="American Airlines purchase page screenshot"/></div>
+                        <div><span><strong>American Airlines</strong></span></div>
+                        <div><span>Through Amadeus, I have had the oppportunity to work for American Airlines international sales portal. Mainly on the Purchase page though I actually worked on all the flow of reservation.</span></div>
+                    </div>
+                    <div class="portfolioItemContainer rounded col-xs-12 col-sm-8">
+                        <div><img src="images/air_france.webp" width="300px" alt="Air France home page screenshot"/></div>
+                        <div><span><strong>Air France</strong></span></div>
+                        <div><span>I also worked on the Front-end of the Air France website...</span></div>
+                    </div>
+                    <div class="portfolioItemContainer rounded col-xs-12 col-sm-8">
+                        <div><img src="images/amadeus.webp" width="300px" alt="Amadeus POC screenshot"/></div>
+                        <div><span><strong>Amadeus</strong></span></div>
+                        <div><span>I created this Proof of Concept UI for Amadeus. Purpose was to design a new UI for travel agencies in order for them to understand why chustomers might have gotten reseated in the planes.</span></div>
+                    </div>
+                    <div class="portfolioItemContainer rounded col-xs-12 col-sm-8">
+                        <div><img src="images/dgac.webp" width="300px" alt="Logo de la Direction Générale de l'Aviation Civile"/></div>
+                        <div><span><strong>French Direction de l'Aviation Civile</strong></span></div>
+                        <div><span>I also worked as a Fullstack Engineer on a project for the French Direction Générale de l'Aviation Civile</span></div>
+                    </div>
+                    <div class="portfolioItemContainer rounded col-xs-12 col-sm-8">
+                        <div><img src="images/future_imperfect.png" width="300px" alt="Future Imperfect logo"/></div>
+                        <div><span><strong>Myself</strong></span></div>
+                        <div><span>Here the work was an exercise to create website from a FIGMA design. I leave you the appreciatioon of it</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- PORTFOLIO CONTAINER END -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
